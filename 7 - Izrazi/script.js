@@ -1,5 +1,6 @@
 let brojac = 3;
 while (brojac <= 20) {
+    //console.log("rezultat modula: " + (brojac % 9));
     if (brojac % 9 == 0) {
         brojac++;
         continue;
@@ -14,4 +15,5 @@ for (i = 0; i < 4; i++) {
         varOne++;
     }
 }
+
 console.log("varOne: " + varOne);
