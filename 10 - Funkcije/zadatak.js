@@ -1,7 +1,7 @@
 function najduzaRijecIBrojSlova(popis) {
     let brojSlova = 0;
     let najduzaRijec = "";
-    let duljinaPopisa = popis.length; // ovo je možda "anonymous" funkcija ili je to je svojstvo - property - pa ne treba zagrade za poziv
+    let duljinaPopisa = popis.length; // ovo je svojstvo - property - pa ne treba zagrade za poziv
     for (i = 0; i < duljinaPopisa; i++) {
         if (popis[i].length == najduzaRijec.length) {
             najduzaRijec = popis[i] + ", " + najduzaRijec;
