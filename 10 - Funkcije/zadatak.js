@@ -18,4 +18,4 @@ function najduzaRijecIBrojSlova(popis) {
 
 
 mojPopis = ["Jabuka", "Kruška", "Šljiva", "Lubenica", "Jabukova"];
-console.log("Najduza/e rijec/i je:", najduzaRijecIBrojSlova(mojPopis)[0], "i ima ukupno", najduzaRijecIBrojSlova(mojPopis)[1], "slova.");
+console.log("Najduza/e rijec/i je/su:", najduzaRijecIBrojSlova(mojPopis)[0], "i ima ukupno", najduzaRijecIBrojSlova(mojPopis)[1], "slova.");
