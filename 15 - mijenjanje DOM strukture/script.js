@@ -19,7 +19,7 @@ divInfo.className = "info";
 div.parentNode.insertBefore(divInfo, mojFooter);
 
 // ZAD 3: DODATI 3 NOVA li ELEMENTA UNUTAR ul
-for(let i = 0; i < 3; i++){
+for (let i = 0; i < 3; i++) {
     let mojUl = document.querySelector("#footer1 ul");
     mojUl.appendChild(document.createElement("li"));
 }
