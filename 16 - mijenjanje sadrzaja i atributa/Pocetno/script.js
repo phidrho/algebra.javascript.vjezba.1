@@ -22,7 +22,7 @@ console.log(footerUl.textContent);
 console.log(footerUl.children);
 let footerUlLi = footerUl.children;
 
-var rijeke = ['Dobra', 'Korana', 'Kupa', 'Mrežnica', 'Karlovačko'];
+let rijeke = ['Dobra', 'Korana', 'Kupa', 'Mrežnica', 'Karlovačko'];
 
 for (let i = 0; i < footerUlLi.length; i++) {
     footerUlLi[i].innerText = rijeke[i];
