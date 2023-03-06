@@ -36,3 +36,4 @@ for (let i = 0; i < footerUlLi.length; i++) {
 let nasElement = document.getElementById("element");
 // nasElement.scrollY = 1300;
 // nasElement.scrollTop = 200;
+// nista od ovog - to je neka njihova računica - zanemariti
