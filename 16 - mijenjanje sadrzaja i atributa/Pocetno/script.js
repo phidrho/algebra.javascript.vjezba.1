@@ -1,3 +1,5 @@
+/* ZADATAK 2 */
+
 let mojH1 = document.querySelector("h1");
 console.log(mojH1);
 console.log(mojH1.textContent);
@@ -27,3 +29,10 @@ let rijeke = ['Dobra', 'Korana', 'Kupa', 'Mrežnica', 'Karlovačko'];
 for (let i = 0; i < footerUlLi.length; i++) {
     footerUlLi[i].innerText = rijeke[i];
 }
+
+
+/* ZADATAK 3 */
+
+let nasElement = document.getElementById("element");
+// nasElement.scrollY = 1300;
+// nasElement.scrollTop = 200;
