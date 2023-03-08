@@ -3,4 +3,4 @@
 	- umjesto circle buleta na elementima liste prikažu redne brojke
 	- div sa klasom info treba dobiti klasu koja će ga sakriti (dodajte u stylesheet)
 	- saznajte margin-left izračunati stil koji je primijenjen na body elementu
-	- animirajte veličinu margine body elementa od pocetne do 30px i natrag u ponavljajućoj petlji
+	- animirajte veličinu margine body elementa od početne do 30px i natrag u ponavljajućoj petlji
