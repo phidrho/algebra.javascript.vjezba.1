@@ -17,6 +17,10 @@ const users = [
 ];
 const user = {name: 'Lorenzo', surname: 'Verdi'};
 
+var noviUseri = [...users, user];
+
+noviUseri.map(user => console.log(user['name']));
+
 // 3.
 for(let i = 0; i < 10; i++){
     setTimeout(function(){
