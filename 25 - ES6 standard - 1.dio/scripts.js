@@ -22,10 +22,10 @@ var noviUseri = [...users, user];
 noviUseri.map(user => console.log(user['name']));
 
 // 3.
-for(let i = 0; i < 10; i++){
+for(var i = 0; i < 10; i++){
     setTimeout(function(){
         console.log('The number is ' + i);
-    }, 1000);
+    }, (1000 + i*1000));
 }
 
 //console.log(i);
